@@ -1,0 +1,13 @@
+# Entornos
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos pesados (dejaremos solo un sample pequeñito)
+data/*
+!data/sample_aapl.csv
+
+# Resultados y reports
+reports/*
+!reports/.gitkeep
