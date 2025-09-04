@@ -11,3 +11,4 @@ data/*
 # Resultados y reports
 reports/*
 !reports/.gitkeep
+.DS_Store
