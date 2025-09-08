@@ -1,7 +1,15 @@
 # Stock Price Prediction with LSTM & GRU
 
-This repository contains my **Bachelor's Thesis (TFG)** project on **time series forecasting**.  
-The goal is to predict Apple stock prices (AAPL) using **deep learning models (LSTM & GRU)** and compare their performance against a baseline linear regression model.
+## Abstract
+This project focuses on stock price prediction using recurrent neural networks (LSTM and GRU) applied to financial time series. Historical data from Apple Inc., enriched with technical indicators, were used to build and evaluate the models. A linear regression model was implemented as a baseline for initial comparison. 
+
+The methodology included comprehensive data preprocessing, temporal sequence generation, and hyperparameter optimization using Grid Search, considering window size, recurrent units, batch size, and learning rate. Models were evaluated using metrics such as MSE and MAE, and differences between LSTM and GRU were analyzed. 
+
+Results indicate that GRU models outperformed LSTM in terms of accuracy, showing lower MSE and MAE, aligning with prior research highlighting GRU efficiency in capturing temporal dependencies. Both models showed significant improvements compared to linear regression.
+
+The critical analysis highlighted limitations such as the lack of external variable integration and reliance on a limited dataset. Future research is suggested to explore hybrid models and additional data sources, such as sentiment analysis and macroeconomic factors, to enhance predictive performance. 
+
+In conclusion, the study validates the effectiveness of recurrent neural networks in stock price prediction and sets a foundation for future research in this domain.
 
 📄 The full thesis is available in [`/docs/TFG.pdf`](docs/TFG.pdf).  
 🎞️ The final presentation is available in [`/docs/presentacion.pptx`](docs/presentacion.pptx).

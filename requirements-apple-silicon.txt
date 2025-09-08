@@ -1,0 +1,10 @@
+# Core scientific stack
+pandas
+numpy
+matplotlib
+scikit-learn
+jupyter
+
+# TensorFlow for Apple Silicon (M1/M2)
+tensorflow-macos==2.16.2
+tensorflow-metal==1.2.0
